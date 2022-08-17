@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="37012" started-at="2022-08-17T18:46:24 IST" finished-at="2022-08-17T18:47:01 IST">
+  <suite name="Suite" duration-ms="34890" started-at="2022-08-17T19:26:32 IST" finished-at="2022-08-17T19:27:07 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="37012" started-at="2022-08-17T18:46:24 IST" finished-at="2022-08-17T18:47:01 IST">
+    <test name="Test" duration-ms="34890" started-at="2022-08-17T19:26:32 IST" finished-at="2022-08-17T19:27:07 IST">
       <class name="test.LoginTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test.LoginTest@60dcc9fe]" name="setUp" is-config="true" duration-ms="7587" started-at="2022-08-17T18:46:24 IST" finished-at="2022-08-17T18:46:32 IST">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test.LoginTest@60dcc9fe]" name="setUp" is-config="true" duration-ms="9245" started-at="2022-08-17T19:26:32 IST" finished-at="2022-08-17T19:26:41 IST">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:test.LoginTest@60dcc9fe]" name="loginTest" duration-ms="3934" started-at="2022-08-17T18:46:32 IST" finished-at="2022-08-17T18:46:35 IST">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:test.LoginTest@60dcc9fe]" name="loginTest" duration-ms="3104" started-at="2022-08-17T19:26:41 IST" finished-at="2022-08-17T19:26:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginTest@60dcc9fe]" name="tearDown" is-config="true" duration-ms="2473" started-at="2022-08-17T18:46:35 IST" finished-at="2022-08-17T18:46:38 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginTest@60dcc9fe]" name="tearDown" is-config="true" duration-ms="1232" started-at="2022-08-17T19:26:44 IST" finished-at="2022-08-17T19:26:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.LoginTest -->
       <class name="test.TopOffersTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test.TopOffersTest@12d4bf7e]" name="setUp" is-config="true" duration-ms="5332" started-at="2022-08-17T18:46:38 IST" finished-at="2022-08-17T18:46:43 IST">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test.TopOffersTest@12d4bf7e]" name="setUp" is-config="true" duration-ms="4713" started-at="2022-08-17T19:26:46 IST" finished-at="2022-08-17T19:26:50 IST">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="topOffers()[pri:0, instance:test.TopOffersTest@12d4bf7e]" name="topOffers" duration-ms="15912" started-at="2022-08-17T18:46:43 IST" finished-at="2022-08-17T18:46:59 IST">
+        <test-method status="FAIL" signature="topOffers()[pri:0, instance:test.TopOffersTest@12d4bf7e]" name="topOffers" duration-ms="15086" started-at="2022-08-17T19:26:50 IST" finished-at="2022-08-17T19:27:06 IST">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: (//div[contains(.,'Rakhi Sets')])[13] (tried for 10 second(s) with 3000 milliseconds interval)
@@ -90,7 +90,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- topOffers -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.TopOffersTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="1197" started-at="2022-08-17T18:46:59 IST" finished-at="2022-08-17T18:47:01 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.TopOffersTest@12d4bf7e]" name="tearDown" is-config="true" duration-ms="1054" started-at="2022-08-17T19:27:06 IST" finished-at="2022-08-17T19:27:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

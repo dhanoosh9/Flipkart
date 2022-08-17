@@ -2,9 +2,6 @@ package test;
 
 import org.testng.annotations.Test;
 
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import com.aventstack.extentreports.reporter.configuration.Theme;
-
 
 
 public class Test2 extends BaseClass {
